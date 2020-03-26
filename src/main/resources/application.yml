@@ -23,7 +23,7 @@ logging:
 mybatis-plus:
   global-config:
     db-config:
-      id-type: auto
+      id-type: auto # 数据库自增
       table-prefix: mp_
       table-underline: true
   type-aliases-package: com.ivan.bean
